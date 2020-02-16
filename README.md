@@ -1,19 +1,21 @@
-# fntstc-co
+# Réplica de home beta-fantástico
 
-## Project setup
+Responsive landing home page
+
+Used technologies:
+
+- Vue
+- Sass
+- Babel
+
+## Instalación de paquetes
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Correr el proyecto en local
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[localhost:8080/](http://localhost:8080/)
