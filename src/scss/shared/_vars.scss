@@ -1,25 +1,22 @@
-//Font
-@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap");
 
 //Font-sizes
 $big-size: 3.2rem;
 $regular-size: 1.6rem;
 $medium-size: 1.5rem;
-$small-size: 1.4rem;
+$small-size: 1.2rem;
 
 //Font weight
 $regular: 300;
 $medium: 400;
-$bold: 500;
+$bold: 600;
 
 //colors
-$primary: rgb(234, 152, 62);
-$primary-hover: rgb(210, 128, 41);
-$secondary: rgba(234, 152, 62, 0.3);
-$grey: rgb(122, 122, 122);
-$grey-lite: rgba(122, 122, 122, 0.4);
-$blackio: rgb(22, 22, 22);
-$clear: rgb(255, 255, 255);
-$accent: rgb(100, 195, 184);
+$primary: #1a5ca9;
+$blue-top: #1b5ba9;
+$blue-bottom: #1458ab;
+$secondary: #00e5e6;
+$border-grey: #dddddd;
+$blackio: #333333;
+$snow: #ffffff;
 $error: tomato;
-
+$accent: #3caae2;

@@ -4,7 +4,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 62.5%;
   height: 100%;
   width: 100%;
@@ -35,7 +35,7 @@ p {
   margin: 0.4rem 0;
   line-height: initial;
   font-size: $medium-size;
-  color: $grey;
+  color: $blackio;
 }
 
 ul {
@@ -49,7 +49,7 @@ select {
 }
 
 .space {
-  background-color: $clear;
+  background-color: $snow;
   display: flex;
   padding-bottom: 5rem;
   flex-direction: column;
@@ -68,11 +68,11 @@ select {
   padding: 1.6rem;
   justify-content: space-between;
   width: 100%;
-  max-width: 86rem;
   flex-wrap: wrap;
 
   &.in {
-    max-width: 100%;
+   width: 100%;
+   max-width: 97rem;
   }
 }
 
@@ -116,19 +116,18 @@ select {
 }
 
 button {
-  border: 0.1rem $clear transparent;
+  border: 0.1rem $snow transparent;
   border-radius: 0.4rem;
   background-color: $primary;
-  color: $clear;
+  color: $snow;
   padding: 0.8rem;
 
   &:hover {
-    background-color: $primary-hover;
     cursor: pointer;
   }
 
   &:active {
-    border: 0.1rem $clear solid;
+    border: 0.1rem $snow solid;
   }
 
   &.large {
@@ -138,7 +137,7 @@ button {
 }
 
 .social {
-  color: $clear;
+  color: $snow;
   width: 3.2rem;
   height: 3.2rem;
   background-position: center;

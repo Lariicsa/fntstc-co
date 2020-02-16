@@ -1,0 +1,18 @@
+@mixin icon-set($name) {
+  text-indent: -9000px;
+  background-repeat: no-repeat;
+
+  @if ($name == "tw") {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='24' viewBox='0 0 18 24'%3E%3Cpath id='twitter' d='M18,13.5a3,3,0,0,0,0-6H9V3A3,3,0,0,0,3,3V15a9.009,9.009,0,0,0,9,9h6a3,3,0,0,0,0-6H12a3,3,0,0,1-3-3V13.5Z' transform='translate(-3)' fill='%23ffffff'/%3E%3C/svg%3E%0A");
+  } @else if ($name == "fb") {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.976' height='24' viewBox='0 0 12.976 24'%3E%3Cpath id='Trazado_2' data-name='Trazado 2' d='M34.564,0,31.452,0C27.955,0,25.7,2.318,25.7,5.906V8.63H22.566a.489.489,0,0,0-.489.49v3.946a.489.489,0,0,0,.489.489H25.7v9.956a.489.489,0,0,0,.489.489h4.083a.489.489,0,0,0,.489-.489V13.554h3.659a.489.489,0,0,0,.489-.489V9.119a.49.49,0,0,0-.49-.49h-3.66V6.321c0-1.11.264-1.673,1.71-1.673h2.1a.489.489,0,0,0,.489-.489V.494A.49.49,0,0,0,34.564,0Z' transform='translate(-22.077)' fill='%23ffffff'/%3E%3C/svg%3E%0A");
+  } @else if ($name == "finder") {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='39.216' height='40' viewBox='0 0 39.216 40'%3E%3Cpath id='Trazado_1' data-name='Trazado 1' d='M27.43,23.736A15.039,15.039,0,1,0,22.8,28L33.895,39.02a3.148,3.148,0,0,0,4.565-4.336c-.038-.04-.075-.077-.115-.115ZM15.144,24.764a9.693,9.693,0,1,1,.007,0Zm0,0' transform='translate(-0.109 0)' fill='%231b5ba9'/%3E%3C/svg%3E%0A");
+  }
+}
+
+@mixin mobile($device) {
+  @media screen and (max-width: $device - 1px) {
+    @content;
+  }
+}
