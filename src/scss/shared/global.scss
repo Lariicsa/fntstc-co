@@ -51,7 +51,6 @@ select {
 .space {
   background-color: $snow;
   display: flex;
-  padding-bottom: 5rem;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -65,14 +64,14 @@ select {
 
 .container {
   display: flex;
-  padding: 1.6rem;
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
 
   &.in {
-   width: 100%;
-   max-width: 97rem;
+    padding: 1.6rem;
+    width: 100%;
+    max-width: 97rem;
   }
 }
 

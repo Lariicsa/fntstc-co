@@ -42,7 +42,6 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  max-height: 15.2rem;
   width: 100%;
 
   &-top {
@@ -128,6 +127,16 @@
 
     &-wrap {
       align-items: center;
+      @include tablet {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      & > * {
+        @include tablet {
+          margin: 0.8rem 0;
+        }
+      }
     }
   }
 }
