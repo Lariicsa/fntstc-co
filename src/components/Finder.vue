@@ -1,6 +1,6 @@
 <template>
   <div class="finder">
-    <input type="text" value="Buscar" />
+    <input type="text" placeholder="Buscar" />
     <span class="finder-icon"></span>
   </div>
 </template>

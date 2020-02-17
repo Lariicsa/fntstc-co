@@ -89,6 +89,9 @@ select {
     padding: 1.6rem 0;
     width: 100%;
     max-width: 97rem;
+    @include tablet {
+      padding: 2.4rem;
+    }
   }
 }
 
@@ -192,6 +195,10 @@ button {
   align-items: center;
   width: 100%;
 
+  @include phone {
+    flex-direction: column;
+  }
+
   & > li {
     border: 0.1rem solid $border-grey;
     border-radius: 0.4rem;
@@ -203,6 +210,11 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    @include phone {
+      margin: 10px 0;
+      width: 100%;
+      max-width: 100%;
+    }
     & > span {
       margin: 1rem 0;
     }
@@ -218,6 +230,7 @@ button {
         width: 100%;
         max-width: 15rem;
         max-height: 18.3rem;
+
       }
       & > p {
         margin: 0.8rem 0;

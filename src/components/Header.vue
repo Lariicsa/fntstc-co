@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header-top">
-      <ul class="container in header-top-items">
+      <ul class="container-in header-top-items">
         <li>
           <a href="#">Ingresar</a>
         </li>
@@ -127,6 +127,7 @@
 
     &-wrap {
       align-items: center;
+      justify-content: space-between;
       @include tablet {
         flex-direction: column;
         justify-content: space-between;
